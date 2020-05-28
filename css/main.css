@@ -365,6 +365,10 @@ a {
   grid-gap: 1.5rem;
 }
 
+#main-footer .quote {
+  text-align: center;
+}
+
 #main-footer .footer-container > *:last-child {
   background: #444;
   grid-column: 1 / span 4;
