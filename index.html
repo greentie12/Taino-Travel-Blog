@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,10 +21,10 @@
         <h1>Taino's Travel Blog</h1>
       </div>
       <div class="social">
-        <a href="http://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
-        <a href="http://instagram"><i class="fab fa-instagram fa-2x"></i></a>
-        <a href="http:twitter"><i class="fab fa-twitter fa-2x"></i></a>
-        <a href="http://linkedin.com"><i class="fab fa-linkedin fa-2x"></i></a>
+        <a href="http://facebook.com" target="_blank"><i class="fab fa-facebook fa-2x"></i></a>
+        <a href="http://instagram.com" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
+        <a href="http://twitter.com" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
+        <a href="http://linkedin.com" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
       </div>
       <ul>
         <li><a class="current" href="index.html">Home</a></li>
@@ -46,78 +47,131 @@
     </div>
   </header>
 
+  <!-- Articles -->
   <section id="home-articles" class="py-2">
     <div class="container">
       <h2>Autumn's Top Picks</h2>
       <div class="articles-container">
 
         <article class="card">
-          <img src="images/grand_canyon.JPG" alt="Grand Canyon">
+          <a href="blogOne.html">
+            <figure>
+              <img src="images/grand_canyon.JPG" alt="Grand Canyon">
+              <figcaption>Overlooking the Grand Canyon</figcaption>
+            </figure>
+          </a>
           <div>
-            <div class="category category-adventure">Adventure</div>
-            <h3><a href="blogOne.html">Lorem ipsum dolor sit amet.</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt aperiam officiis fugiat, alias, dignissimos!</p>
+            <a href="blogOne.html">
+              <div class="category category-adventure">Adventure</div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt aperiam officiis fugiat, alias, dignissimos!</p>
+            </a>
           </div>
         </article>
 
         <article class="card">
           <div>
-            <div class="category category-city">Cities</div>
-            <h3><a href="blogOne.html">Lorem ipsum dolor sit amet.</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt aperiam officiis fugiat, alias, dignissimos!</p>
+            <a href="blogOne.html">
+              <div class="category category-city">Cities</div>
+              <h3><a href="blogOne.html">Lorem ipsum dolor sit amet.</a></h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt aperiam officiis fugiat, alias, dignissimos!</p>
+            </a>
           </div>
         </article>
 
         <article class="card">
-          <img src="images/waterfall.jpg" alt="rainforest waterfall">
-          <div>
-            <div class="category category-green">Rainforest</div>
-            <h3><a href="blogOne.html">Lorem ipsum dolor sit amet.</a></h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt aperiam officiis fugiat, alias, dignissimos!</p>
-          </div>
+          <a href="blogOne.html">
+            <figure>
+              <img src="images/waterfall.jpg" alt="rainforest waterfall">
+              <figcaption>Watering hole in El Yunque Rainforest</figcaption>
+            </figure>
+            <div>
+              <div class="category category-green">Rainforest</div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi deserunt!</p>
+            </div>
+          </a>
         </article>
 
         <article class="card">
-          <div class="category category-adventure">Churches</div>
-          <h3>
-            <a href="blogOne.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
-          <img src="images/salt_lake.JPG" alt="Mormon Church">
+          <a href="blogOne.html">
+            <div class="category category-church">Churches</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+            <figure>
+              <img src="images/salt_lake.JPG" alt="Mormon Church">
+              <figcaption>Brigham City Utah Temple</figcaption>
+            </figure>
+          </a>
         </article>
 
         <article class="card">
-          <img src="images/park1.jpg" alt="playground">
-          <div class="category category-city">Parks</div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+          <a href="blogOne.html">
+            <img src="images/park1.jpg" alt="playground">
+            <div class="category category-city">Parks</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+          </a>
         </article>
 
         <article class="card bg-primary">
-          <div class="category category-adventure">Adventure</div>
-          <h3>
-            <a href="article.html">Lorem ipsum dolor sit amet.</a>
-          </h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+          <a href="blogOne.html">
+            <div class="category category-adventure">Adventure</div>
+            <h3>Lorem ipsum dolor sit amet.</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+          </a>
         </article>
 
         <article class="card">
           <div>
-            <div class="category category-green">Carribean</div>
-            <h3>
-              <a href="article.html">Lorem ipsum dolor sit amet.</a>
-            </h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+            <a href="blogOne.html">
+              <div class="category category-green">Carribean</div>
+              <h3>Lorem ipsum dolor sit amet.</h3>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore ex ut, recusandae odit eum est dignissimos sint impedit vel laborum?</p>
+            </a>
           </div>
-          <img src="images/puerto_rico.jpg" alt="Puerto Rico">
+          <a href="blogOne.html">
+            <img src="images/puerto_rico.jpg" alt="Puerto Rico">
+          </a>
         </article>
-
-
-
       </div>
     </div>
   </section>
+
+  <!--  Footer -->
+  <footer id="main-footer" class="py-2">
+    <div class="container footer-container">
+      <div class="footer-logo">
+        <img src="icons/taino_logo.jpg" alt="Taino Logo">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, illo?</p>
+      </div>
+      <div>
+        <h3>Email Newsletter</h3>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <form>
+          <input type="email" placeholder="Enter email">
+          <input type="submit" value="Subscribe" class="btn btn-primary">
+        </form>
+      </div>
+      <div>
+        <h3>Site Links</h3>
+        <ul class="list">
+          <li><a href="#">Travel Tips</a></li>
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h2>Join Our Club</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima, vitae.</p>
+        <a href="#" class="btn btn-secondary join">Join Now</a>
+      </div>
+      <div>
+        <p>Copyright &copy; 2020, All Rights Reserved</p>
+      </div>
+
+    </div>
+  </footer>
 
 </body></html>

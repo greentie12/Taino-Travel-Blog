@@ -38,6 +38,12 @@ img {
   width: 100%;
 }
 
+figcaption {
+  text-align: center;
+  text-decoration: underline;
+  font-size: .8rem;
+}
+
 h1,
 h2,
 h3,
@@ -62,8 +68,11 @@ h6 {
   font-size: .75rem;
   text-transform: uppercase;
   padding: .4rem .6rem;
-  border-radius: 15px;
   margin-bottom: .5rem;
+}
+
+.category-church {
+  background: var(--primary-color);
 }
 
 .category-adventure {
@@ -76,6 +85,12 @@ h6 {
 
 .category-green {
   background: var(--green-color);
+}
+
+.category,
+.btn,
+a {
+  border-radius: 7px;
 }
 
 .btn {
@@ -95,7 +110,7 @@ h6 {
 }
 
 .btn-secondary {
-  background: var(--carribean-color);
+  background: var(--adventure-color);
 }
 
 .btn:hover {
@@ -271,4 +286,60 @@ h6 {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+/* Footer */
+#main-footer {
+  background: var(--dark-color);
+  color: #fff;
+}
+
+#main-footer .footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+#main-footer img {
+  width: 60px;
+}
+
+#main-footer a {
+  color: #fff;
+}
+
+#main-footer .footer-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+
+#main-footer .footer-container > *:last-child {
+  background: #444;
+  grid-column: 1 / span 4;
+  padding: .5rem;
+  text-align: center;
+  font-size: .75rem;
+}
+
+#main-footer .footer-container input[type='email'] {
+  width: 90%;
+  padding: .5rem;
+  margin-bottom: .5rem;
+}
+
+#main-footer .footer-container input[type='submit'],
+#main-footer .join {
+  width: 90%;
+  text-align: center;
+}
+
+.list li {
+  padding: .5rem 0;
+  border-bottom: 1px solid #555;
+  width: 90%;
+}
+
+.list li a:hover {
+  color: var(--primary-color) !important;
 }
