@@ -157,27 +157,27 @@ a {
 }
 
 .py-1 {
-  padding: 1.5rem 0
+  padding: 1.5rem 0;
 }
 
 .py-2 {
-  padding: 1rem 0
+  padding: 1rem 0;
 }
 
 .py-3 {
-  padding: 3rem 0
+  padding: 3rem 0;
 }
 
 .p-1 {
-  padding: 1.5rem
+  padding: 1.5rem;
 }
 
 .p-2 {
-  padding: 2rem
+  padding: 2rem;
 }
 
 .p-3 {
-  padding: 3rem
+  padding: 3rem;
 }
 
 /* Inner page container */
