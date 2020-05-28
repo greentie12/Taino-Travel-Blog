@@ -51,10 +51,10 @@ h4,
 h5,
 h6 {
   font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
 }
 
 /* Utility */
-
 .container {
   max-width: var(--max-width);
   margin: auto;
@@ -136,6 +136,11 @@ a {
   color: #fff;
 }
 
+.bg-green {
+  background: var(--green-color);
+  color: #fff;
+}
+
 .bg-dark h1,
 .bg-dark h2,
 .bg-dark h3,
@@ -175,6 +180,39 @@ a {
   padding: 3rem
 }
 
+/* Inner page container */
+.page-container {
+  display: grid;
+  grid-template-columns: 5fr 2fr;
+  margin: 2rem 0;
+  grid-gap: 1.5rem;
+}
+
+/* About page */
+#about h1,
+#about h3 {
+  text-align: center;
+}
+
+#about .card h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#about .about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  width: 300px;
+  padding: 0 1rem 1rem 0;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
 
 /* Navigation */
 #main-nav {
@@ -187,12 +225,12 @@ a {
 #main-nav .container {
   display: grid;
   grid-template-columns: 6fr 3fr 2fr;
-  padding: 1rem;
+  padding: .5rem;
   align-items: center;
 }
 
 #main-nav .logo {
-  width: 60px;
+  width: 50px;
 }
 
 #main-nav .logo-title {
@@ -217,6 +255,7 @@ a {
 
 #main-nav ul li a.current {
   background: var(--primary-color);
+  color: #fff;
 }
 
 #main-nav ul li a:hover {
@@ -286,6 +325,18 @@ a {
 
 #home-articles .articles-container > *:last-child {
   grid-column: 2 / span 2;
+}
+
+.meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #eee;
+  padding: 0.5rem;
+}
+
+#article .meta .category {
+  margin-top: 0.4rem;
 }
 
 /* Footer */
