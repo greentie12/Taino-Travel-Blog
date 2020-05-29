@@ -62,4 +62,8 @@
   .page-container > *:first-child {
     grid-row: 1;
   }
+
+  #main-footer .footer-container > *:last-child {
+    width: 90%;
+  }
 }

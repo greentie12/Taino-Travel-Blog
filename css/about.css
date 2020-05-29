@@ -1,0 +1,25 @@
+/* About Page Styling */
+#about h1,
+#about h3 {
+  text-align: center;
+}
+
+#about .card h1 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+#about .about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about img {
+  width: 300px;
+  padding: 0 1rem 1rem 0;
+}
+
+.page-container > *:first-child {
+  grid-row: 1 / span 3;
+}
